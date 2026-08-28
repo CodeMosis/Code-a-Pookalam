@@ -1,6 +1,6 @@
 ## 🌸 Code-a-Pookalam
 
-![Code <a> Pookalam](poster.jpg)
+![Code-a-Pookalam](poster.jpg)
 
 A traditional Kerala Pookalam designed using **HTML, CSS, and JavaScript**.
 
