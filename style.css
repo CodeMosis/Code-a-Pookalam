@@ -8,7 +8,7 @@ body {
     background:
     radial-gradient(circle,rgba(120,60,30,0.18) 0%,rgba(255,255,255,0.08) 45%,rgba(255,193,7,0.12) 100%),
     repeating-linear-gradient(45deg,rgba(255,255,255,0.1) 0px,rgba(255,255,255,0.1) 2px,transparent 2px,transparent 8px),
-    radial-gradient(circle,#8f4b3a,#d9824b,#f2c15b,#fff3c4);
+    radial-gradient(circle,#0822a7,#3672c0,#31a0c1,#bac5c4);
 }
 
 .flower-container {
@@ -62,7 +62,7 @@ body {
     height: 620px;
     background: 
         repeating-linear-gradient(90deg,rgba(0,0,0,0.08) 0px,rgba(0,0,0,0.08) 4px,transparent 4px,transparent 10px),
-        linear-gradient(to top,#9f1239,#ea580c,#facc15);
+        linear-gradient(to top,#9f1245,#ea580c,#facc15);
     border-radius: 70% 50% 0 0;
     left: calc(45% - 45px);
     bottom: 50%;
@@ -118,22 +118,22 @@ body {
 
 .outer {
     position: absolute;
-    width: 1080px;
-    height: 1080px;
-    border: 5px solid #ea580c;
+    width: 1350px;
+    height: 1350px;
+    border: 8px solid #c07953;
     border-radius: 50%;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
-    background-color: #fef08a;
-    background-image: 
-        radial-gradient(25% 25% at 25% 25%,#facc15 99%,transparent 101%), 
-        radial-gradient(25% 25% at 25% 25%,#ea580c 99%,transparent 101%),
-        radial-gradient(50% 50%,#ffffff 98%,transparent),
-        repeating-conic-gradient(#ffffff 0 25%,#701a75 0 50%);
-    background-position: 50px 50px,0 0,0 0,25px 0;
-    background-size: 100px 100px,100px 100px,50px 50px,100px 50px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transform: translate(-50%, -50%);
+    background:
+        radial-gradient(35.36% 35.36% at 100% 25%, #0000 58%, #E56917 62% 76%, #0000 80%) 45px 45px / 90px 90px,
+        radial-gradient(35.36% 35.36% at 0 75%, #0000 58%, #E56917 62% 76%, #0000 80%) 45px 45px / 90px 90px,
+        radial-gradient(35.36% 35.36% at 100% 25%, #0000 58%, #E56917 62% 76%, #0000 80%) 0 0 / 90px 90px,
+        radial-gradient(35.36% 35.36% at 0 75%, #0000 58%, #E56917 62% 76%, #0000 80%) 0 0 / 90px 90px,
+        repeating-conic-gradient(#EDE475 0 25%, #0000 0 50%) 0 0 / 90px 90px,
+        radial-gradient(#0000 58%, #E56917 62% 76%, #0000 80%) 0 22.5px / 45px 45px
+        #EDE475;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     z-index: -3;
 }
 
