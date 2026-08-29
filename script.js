@@ -32,3 +32,4 @@ for(let j = 0;j<25;j++){
     petal3.style.transform = `rotate(${j*(360/24)}deg)`;
     petals3Container.appendChild(petal3);
 }
+
